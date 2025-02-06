@@ -105,7 +105,6 @@ module.exports = {
       'no-process-env': 'error',
       'no-process-exit': 'error',
       'no-sync': 'error',
-      'array-bracket-spacing': [ 'error', 'always' ],
       'block-spacing': 'error',
       'camelcase': 'error',
       'comma-spacing': 'error',
@@ -224,5 +223,6 @@ module.exports = {
       '@stylistic/no-floating-decimal': 'error',
       '@stylistic/no-multi-spaces': 'error',
       '@stylistic/wrap-iife': 'error',
+      '@stylistic/array-bracket-spacing': [ 'error', 'always' ],
    },
 };
