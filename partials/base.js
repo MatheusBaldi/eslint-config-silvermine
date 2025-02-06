@@ -107,7 +107,6 @@ module.exports = {
       'no-sync': 'error',
       'camelcase': 'error',
       'consistent-this': [ 'error', 'self' ],
-      'spaced-comment': [ 'error', 'always' ],
       'max-depth': [ 'error', 4 ],
       'max-len': [
          'error',
@@ -224,5 +223,6 @@ module.exports = {
       ],
       '@stylistic/linebreak-style': [ 'error', 'unix' ],
       '@stylistic/lines-around-comment': 'error',
+      '@stylistic/spaced-comment': [ 'error', 'always' ],
    },
 };
