@@ -106,7 +106,6 @@ module.exports = {
       'no-process-exit': 'error',
       'no-sync': 'error',
       'camelcase': 'error',
-      'computed-property-spacing': 'error',
       'consistent-this': [ 'error', 'self' ],
       'eol-last': 'error',
       'key-spacing': 'error',
@@ -224,5 +223,6 @@ module.exports = {
       '@stylistic/block-spacing': 'error',
       '@stylistic/comma-spacing': 'error',
       '@stylistic/comma-style': 'error',
+      '@stylistic/computed-property-spacing': 'error',
    },
 };
