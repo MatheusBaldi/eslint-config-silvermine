@@ -106,7 +106,6 @@ module.exports = {
       'no-process-exit': 'error',
       'no-sync': 'error',
       'camelcase': 'error',
-      'comma-style': 'error',
       'computed-property-spacing': 'error',
       'consistent-this': [ 'error', 'self' ],
       'eol-last': 'error',
@@ -224,5 +223,6 @@ module.exports = {
       '@stylistic/array-bracket-spacing': [ 'error', 'always' ],
       '@stylistic/block-spacing': 'error',
       '@stylistic/comma-spacing': 'error',
+      '@stylistic/comma-style': 'error',
    },
 };
