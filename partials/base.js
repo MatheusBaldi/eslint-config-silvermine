@@ -61,7 +61,6 @@ module.exports = {
       'no-labels': 'error',
       'no-lone-blocks': 'error',
       'no-loop-func': 'error',
-      'no-multi-spaces': 'error',
       'no-multi-str': 'error',
       'no-new': 'error',
       'no-new-func': 'error',
@@ -224,5 +223,6 @@ module.exports = {
       ],
       '@stylistic/dot-location': [ 'error', 'property' ],
       '@stylistic/no-floating-decimal': 'error',
+      '@stylistic/no-multi-spaces': 'error',
    },
 };
