@@ -141,7 +141,6 @@ module.exports = {
       'one-var': [ 'error', { 'var': 'always', 'let': 'consecutive' } ],
       'unicode-bom': 'error',
       'arrow-body-style': [ 'error', 'always' ],
-      'object-property-newline': [ 'error', { 'allowAllPropertiesOnSameLine': true } ],
 
       // stylistic
       '@stylistic/indent': [ 'error', 3, { 'VariableDeclarator': 'first', 'SwitchCase': 1 } ],
@@ -224,5 +223,6 @@ module.exports = {
       '@stylistic/arrow-spacing': [ 'error', { 'before': true, 'after': true } ],
       '@stylistic/arrow-parens': 'error',
       '@stylistic/template-curly-spacing': [ 'error', 'never' ],
+      '@stylistic/object-property-newline': [ 'error', { 'allowAllPropertiesOnSameLine': true } ],
    },
 };
