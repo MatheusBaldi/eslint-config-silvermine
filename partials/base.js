@@ -108,16 +108,6 @@ module.exports = {
       'camelcase': 'error',
       'consistent-this': [ 'error', 'self' ],
       'max-depth': [ 'error', 4 ],
-      'max-len': [
-         'error',
-         {
-            'code': 140,
-            'comments': 90,
-            'ignoreUrls': true,
-            // function declaration lines
-            'ignorePattern': '^\\s*((async|export|default|async|public|private|protected|function) )+.*\\{',
-         },
-      ],
       'max-nested-callbacks': [ 'error', 6 ],
       'max-params': [ 'error', 5 ],
       'new-cap': [
@@ -224,5 +214,15 @@ module.exports = {
       '@stylistic/linebreak-style': [ 'error', 'unix' ],
       '@stylistic/lines-around-comment': 'error',
       '@stylistic/spaced-comment': [ 'error', 'always' ],
+      '@stylistic/max-len': [
+         'error',
+         {
+            'code': 140,
+            'comments': 90,
+            'ignoreUrls': true,
+            // function declaration lines
+            'ignorePattern': '^\\s*((async|export|default|async|public|private|protected|function) )+.*\\{',
+         },
+      ],
    },
 };
