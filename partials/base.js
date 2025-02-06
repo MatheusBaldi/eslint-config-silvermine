@@ -120,14 +120,6 @@ module.exports = {
       'no-import-assign': 'error',
       'no-dupe-else-if': 'error',
       'no-lonely-if': 'error',
-      'no-multiple-empty-lines': [
-         'error',
-         {
-            'max': 2,
-            'maxBOF': 0,
-            'maxEOF': 0,
-         },
-      ],
       'no-negated-condition': 'error',
       'no-nested-ternary': 'error',
       'no-new-object': 'error',
@@ -223,6 +215,14 @@ module.exports = {
       '@stylistic/padding-line-between-statements': [
          'error',
          { blankLine: 'always', prev: [ 'var', 'let', 'const' ], next: '*' },
+      ],
+      '@stylistic/no-multiple-empty-lines': [
+         'error',
+         {
+            'max': 2,
+            'maxBOF': 0,
+            'maxEOF': 0,
+         },
       ],
    },
 };
