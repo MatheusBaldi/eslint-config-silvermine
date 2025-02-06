@@ -54,7 +54,6 @@ module.exports = {
       'no-extra-bind': 'error',
       'no-extra-label': 'error',
       'no-fallthrough': 'error',
-      'no-floating-decimal': 'error',
       'no-implicit-coercion': [ 'error', { 'allow': [ '!!' ] } ],
       'no-implicit-globals': [ 'error', { 'lexicalBindings': true } ],
       'no-implied-eval': 'error',
@@ -224,5 +223,6 @@ module.exports = {
          },
       ],
       '@stylistic/dot-location': [ 'error', 'property' ],
+      '@stylistic/no-floating-decimal': 'error',
    },
 };
