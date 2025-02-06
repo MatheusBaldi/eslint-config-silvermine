@@ -114,10 +114,6 @@ module.exports = {
          'error',
          { 'capIsNewExceptions': [ 'Q' ] },
       ],
-      'padding-line-between-statements': [
-         'error',
-         { blankLine: 'always', prev: [ 'var', 'let', 'const' ], next: '*' },
-      ],
       'prefer-regex-literals': 'error',
       'no-array-constructor': 'error',
       'no-bitwise': 'error',
@@ -224,5 +220,9 @@ module.exports = {
          },
       ],
       '@stylistic/new-parens': 'error',
+      '@stylistic/padding-line-between-statements': [
+         'error',
+         { blankLine: 'always', prev: [ 'var', 'let', 'const' ], next: '*' },
+      ],
    },
 };
