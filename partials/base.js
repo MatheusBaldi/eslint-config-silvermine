@@ -107,14 +107,6 @@ module.exports = {
       'no-sync': 'error',
       'camelcase': 'error',
       'consistent-this': [ 'error', 'self' ],
-      'keyword-spacing': [
-         'error',
-         {
-            'overrides': {
-               'catch': { 'after': false },
-            },
-         },
-      ],
       'linebreak-style': [ 'error', 'unix' ],
       'lines-around-comment': 'error',
       'spaced-comment': [ 'error', 'always' ],
@@ -224,5 +216,13 @@ module.exports = {
       '@stylistic/computed-property-spacing': 'error',
       '@stylistic/eol-last': 'error',
       '@stylistic/key-spacing': 'error',
+      '@stylistic/keyword-spacing': [
+         'error',
+         {
+            'overrides': {
+               'catch': { 'after': false },
+            },
+         },
+      ],
    },
 };
