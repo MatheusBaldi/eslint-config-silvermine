@@ -85,7 +85,6 @@ module.exports = {
       'no-with': 'error',
       'radix': 'error',
       'vars-on-top': 'error',
-      'wrap-iife': 'error',
       'yoda': 'error',
       // because we are still on commonjs module
       'strict': 'off',
@@ -224,5 +223,6 @@ module.exports = {
       '@stylistic/dot-location': [ 'error', 'property' ],
       '@stylistic/no-floating-decimal': 'error',
       '@stylistic/no-multi-spaces': 'error',
+      '@stylistic/wrap-iife': 'error',
    },
 };
