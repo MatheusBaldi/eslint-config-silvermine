@@ -114,7 +114,6 @@ module.exports = {
          'error',
          { 'capIsNewExceptions': [ 'Q' ] },
       ],
-      'new-parens': 'error',
       'padding-line-between-statements': [
          'error',
          { blankLine: 'always', prev: [ 'var', 'let', 'const' ], next: '*' },
@@ -224,5 +223,6 @@ module.exports = {
             'ignorePattern': '^\\s*((async|export|default|async|public|private|protected|function) )+.*\\{',
          },
       ],
+      '@stylistic/new-parens': 'error',
    },
 };
