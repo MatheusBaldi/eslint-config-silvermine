@@ -107,7 +107,6 @@ module.exports = {
       'no-sync': 'error',
       'camelcase': 'error',
       'consistent-this': [ 'error', 'self' ],
-      'key-spacing': 'error',
       'keyword-spacing': [
          'error',
          {
@@ -224,5 +223,6 @@ module.exports = {
       '@stylistic/comma-style': 'error',
       '@stylistic/computed-property-spacing': 'error',
       '@stylistic/eol-last': 'error',
+      '@stylistic/key-spacing': 'error',
    },
 };
