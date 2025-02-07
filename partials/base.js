@@ -137,7 +137,6 @@ module.exports = {
          'YieldExpression',
       ],
       'no-setter-return': 'error',
-      'func-call-spacing': 'error',
       'no-trailing-spaces': 'error',
       'no-unneeded-ternary': 'error',
       'no-whitespace-before-property': 'error',
@@ -224,5 +223,6 @@ module.exports = {
             'maxEOF': 0,
          },
       ],
+      '@stylistic/func-call-spacing': 'error',
    },
 };
