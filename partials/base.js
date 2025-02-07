@@ -25,16 +25,6 @@ module.exports = {
       ],
       '@silvermine/eslint-plugin-silvermine/max-statements-per-line': 'error',
       'indent': [ 'error', 3, { 'VariableDeclarator': 'first', 'SwitchCase': 1 } ],
-      'comma-dangle': [
-         'error',
-         {
-            'arrays': 'always-multiline',
-            'objects': 'always-multiline',
-            'imports': 'always-multiline',
-            'exports': 'always-multiline',
-            'functions': 'never',
-         },
-      ],
       'no-unsafe-finally': 'warn',
       'array-callback-return': 'error',
       'block-scoped-var': 'error',
@@ -219,5 +209,18 @@ module.exports = {
       'arrow-parens': 'error',
       'template-curly-spacing': [ 'error', 'never' ],
       'object-property-newline': [ 'error', { 'allowAllPropertiesOnSameLine': true } ],
+
+      // stylistic
+      '@stylistic/comma-dangle': [
+         'error',
+         {
+            'arrays': 'always-multiline',
+            'objects': 'always-multiline',
+            'imports': 'always-multiline',
+            'exports': 'always-multiline',
+            'enums': 'always-multiline',
+            'functions': 'never',
+         },
+      ],
    },
 };
