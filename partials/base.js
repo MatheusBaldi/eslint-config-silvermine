@@ -139,7 +139,6 @@ module.exports = {
       'no-setter-return': 'error',
       'no-unneeded-ternary': 'error',
       'one-var': [ 'error', { 'var': 'always', 'let': 'consecutive' } ],
-      'space-unary-ops': 'error',
       'unicode-bom': 'error',
       'arrow-body-style': [ 'error', 'always' ],
       'arrow-spacing': [ 'error', { 'before': true, 'after': true } ],
@@ -224,5 +223,6 @@ module.exports = {
       ],
       '@stylistic/space-in-parens': [ 'error', 'never' ],
       '@stylistic/space-infix-ops': 'error',
+      '@stylistic/space-unary-ops': 'error',
    },
 };
