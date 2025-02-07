@@ -139,14 +139,6 @@ module.exports = {
       'no-setter-return': 'error',
       'no-unneeded-ternary': 'error',
       'one-var': [ 'error', { 'var': 'always', 'let': 'consecutive' } ],
-      'space-before-function-paren': [
-         'error',
-         {
-            'anonymous': 'never',
-            'named': 'never',
-            'asyncArrow': 'always',
-         },
-      ],
       'space-in-parens': [ 'error', 'never' ],
       'space-infix-ops': 'error',
       'space-unary-ops': 'error',
@@ -224,5 +216,13 @@ module.exports = {
       '@stylistic/semi': [ 'error', 'always' ],
       '@stylistic/semi-spacing': 'error',
       '@stylistic/space-before-blocks': 'error',
+      '@stylistic/space-before-function-paren': [
+         'error',
+         {
+            'anonymous': 'never',
+            'named': 'never',
+            'asyncArrow': 'always',
+         },
+      ],
    },
 };
