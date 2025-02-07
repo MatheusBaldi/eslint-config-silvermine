@@ -139,7 +139,6 @@ module.exports = {
       'no-setter-return': 'error',
       'no-unneeded-ternary': 'error',
       'one-var': [ 'error', { 'var': 'always', 'let': 'consecutive' } ],
-      'semi-spacing': 'error',
       'space-before-blocks': 'error',
       'space-before-function-paren': [
          'error',
@@ -224,5 +223,6 @@ module.exports = {
       '@stylistic/one-var-declaration-per-line': 'error',
       '@stylistic/quotes': [ 'error', 'single' ],
       '@stylistic/semi': [ 'error', 'always' ],
+      '@stylistic/semi-spacing': 'error',
    },
 };
