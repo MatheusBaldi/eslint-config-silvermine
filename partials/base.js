@@ -138,7 +138,6 @@ module.exports = {
       ],
       'no-setter-return': 'error',
       'no-unneeded-ternary': 'error',
-      'object-curly-spacing': [ 'error', 'always' ],
       'one-var': [ 'error', { 'var': 'always', 'let': 'consecutive' } ],
       'one-var-declaration-per-line': 'error',
       'quotes': [ 'error', 'single' ],
@@ -224,5 +223,6 @@ module.exports = {
       '@stylistic/func-call-spacing': 'error',
       '@stylistic/no-trailing-spaces': 'error',
       '@stylistic/no-whitespace-before-property': 'error',
+      '@stylistic/object-curly-spacing': [ 'error', 'always' ],
    },
 };
