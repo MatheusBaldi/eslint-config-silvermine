@@ -204,7 +204,7 @@ module.exports = {
       '@stylistic/quotes': [ 'error', 'single' ],
       '@stylistic/semi': [ 'error', 'always' ],
       '@stylistic/semi-spacing': 'error',
-      'space-before-blocks': 'error',
+      '@stylistic/space-before-blocks': 'error',
       'space-before-function-paren': [
          'error',
          {
