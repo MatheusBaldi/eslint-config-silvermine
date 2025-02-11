@@ -142,7 +142,7 @@ module.exports = {
       '@stylistic/lines-around-comment': 'error',
       '@stylistic/spaced-comment': [ 'error', 'always' ],
       'max-depth': [ 'error', 4 ],
-      'max-len': [
+      '@stylistic/max-len': [
          'error',
          {
             'code': 140,
