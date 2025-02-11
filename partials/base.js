@@ -205,7 +205,7 @@ module.exports = {
       '@stylistic/semi': [ 'error', 'always' ],
       '@stylistic/semi-spacing': 'error',
       '@stylistic/space-before-blocks': 'error',
-      'space-before-function-paren': [
+      '@stylistic/space-before-function-paren': [
          'error',
          {
             'anonymous': 'never',
